@@ -1,0 +1,155 @@
+.courseElementButton{
+  padding: 10px 20px;
+  border-radius:8px;
+  border-color: #528b8d;
+  border-width: 2px;
+  font-weight: bold;
+  min-width: 130px;
+  margin: 10px 20px 10px 20px;
+  font-size: 1em;
+  max-width: 80%;
+  outline-style:none;
+  width:100px;
+  color: white;
+  transition: all 0.1s ease 0s;
+  background-color: #86b7b8;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.18), 0 6px 10px 0 rgba(0, 0, 0, 0.13);
+}
+
+:focus {outline:0 !important;}
+
+:active {
+  background-color: none;
+}
+
+.inCart{
+  padding: 10px 20px;
+  border-radius:8px;
+  border-width: 2px;
+  font-weight: bold;
+  min-width: 120px;
+  margin: 10px 20px 10px 20px;
+  font-size: 1em;
+  max-width: 80%;
+  outline-style:none;
+  width:100px;
+  color: white;
+  transition: all 0.1s ease 0s;
+  background-color: #00cc66;
+  border-color: #00cc66;
+}
+
+.cartElementButton{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius:8px;
+  margin: 10px 20px 10px 20px;
+  outline-style:none;
+  font-size: 1em;
+  outline-style:none;
+  outline-color: gray;
+  outline-width: 2px;
+  box-shadow: none;
+  color: black;
+  transition: all 0.1s ease 0s;
+}
+
+.courseElementButton:hover{
+  background:#528b8d
+}
+
+.courseElementButton:target{
+  background:none
+}
+
+
+.exportButton{
+  background-color: #3498DB;
+  padding: 10px 20px;
+  float:right;
+  border-radius:20px;
+  outline-style:none;
+  transition: all 0.3s ease 0s;
+  font-size: 1em;
+  outline-style:none;
+  color: white;
+}
+
+.addRemoveButton{
+  background-color: #3498DB;
+  padding: 10px 20px;
+  margin-bottom: -20px;
+  border-radius:20px;
+  outline-style:none;
+  transition: all 0.3s ease 0s;
+  font-size: 1em;
+  outline-style:none;
+  color: white;
+}
+
+.exportButton:hover{
+  background: #3071A9
+}
+
+.flexbox{
+  min-width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.cart{
+  display: flex;
+  vertical-align: middle;
+  flex-direction: row;
+  align-items: center;
+}
+
+.leftRight{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.removeButton{
+  background: Transparent;
+  outline: none;
+  border: none;
+  margin-top: -4px;
+  padding: 0px 0px;
+  font-size: 2em;
+  color: #A9A9A9;
+}
+
+.removeButton:hover{
+  color: #1e1e1e;
+}
+
+.courseDescription{
+  /* border-style:solid;
+  border-offset: 10px;
+  border-width:1px;
+  border-radius: 5px; */
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  outline-color: #86b7b8;
+  margin:10px
+}
+
+.search{
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.grid{
+  display:grid
+}
+
+.grid-item {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
