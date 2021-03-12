@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "lodash.flow": "^3.5.0",
     "materialize-css": "^1.0.0",
     "react": "^16.8.1",
